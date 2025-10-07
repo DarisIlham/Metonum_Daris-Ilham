@@ -1,5 +1,6 @@
 import math
-
+# Implementasi metode Jacobi untuk sistem persamaan non-linear
+# Daris Muhammad Ilham - 21120123130054
 def fixed_point_jacobi(x0, y0, epsilon=0.000001, max_iter=100):
     print(f"{'r':<3} {'x':<12} {'y':<12} {'deltaX':<12} {'deltaY':<12}")
     x = x0

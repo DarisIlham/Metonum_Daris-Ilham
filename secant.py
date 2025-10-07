@@ -1,5 +1,6 @@
 import numpy as np
-
+# Implementasi metode Broyden untuk sistem persamaan non-linear
+# Daris Muhammad Ilham - 21120123130054
 def broyden_method(x0, y0, epsilon=0.000001, max_iter=100):
     def f(xy):
         x, y = xy
